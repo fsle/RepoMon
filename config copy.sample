@@ -1,0 +1,511 @@
+{
+    "github_token": "<CHANGE_ME_PLEASE>",
+    "tg_token": "CHANGE_ME_PLEASE",
+    "tg_chat_id": "CHANGE_ME_PLEASE",
+    "repositories": [
+        {
+            "repo": "Decurity/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "bailsec/BailSec",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "ComposableSecurity/.github",
+            "filters": {
+                "include": ["README.md", "reports"],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "Ackee-Blockchain/public-audit-reports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "NethermindEth/PublicAuditReports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "softstack/Smart-Contract-Security-Audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "Certora/SecurityReports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "trailofbits/publications",
+            "filters": {
+                "include": ["reviews"],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "sigp/public-audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "Quillhash/QuillAudit_Reports",
+            "filters": {
+                "include": [],
+                "exclude": ["Images"]
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "spearbit/portfolio",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "pessimistic-io/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "slowmist/Knowledge-Base",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "peckshield/publications",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "GuardianAudits/Audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "sherlock-protocol/sherlock-reports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "pashov/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "TechRate/Smart-Contract-Audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "g0-group/Audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "Zellic/publications",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "HalbornSecurity/PublicReports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "Hexens/Smart-Contract-Review-Public-Reports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "mixbytes/audits_public",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "oak-security/audit-reports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "coinspect/publications",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "abdk-consulting/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "Cyfrin/cyfrin-audit-reports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "oxor-io/public_audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "statemindio/public-audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "zenith-security/reports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "recon-Fuzz/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "shieldify-security/audits-portfolio",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "Egis-Security/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "SB-Security/audits",
+            "filters": {
+                "include": ["reports", "README.md", "analyses"],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "IAm0x52/audit-portfolio",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "kadenzipfel/audit-portfolio",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "KupiaSec/portfolio",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "EXVUL-Sec/AuditReport",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "zokyo-sec/audit-reports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "scalebit/Sampled-Audit-Reports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "electisec/reports",
+            "filters": {
+                "include": ["content"],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "Enigma-Dark/security-review-reports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "CDSecurity/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "0x3b33/reports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "Delvir0/Audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "blocksecteam/audit-reports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "ZealynxSecurity/Zealynx",
+            "filters": {
+                "include": ["Zealynx-portfolio"],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "abarbatei/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "chainlight-io/publications",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "zobront/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "HollaDieWaldfee100/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "chinmay-farkya/Audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "tpiliposian/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "0xadrii/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "McCoady/security-research-portfolio",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "master"
+        },
+        {
+            "repo": "JeffCX/Sparkware-audit-portfolio",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "carrotsmuggler/carotsmuggler-audit-portfolio",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "stalinMacias/Portfolio",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "k4zanmalay/Portfolio",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "0xSpearmint/0xSpearmint",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "lidofinance/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "aave-dao/aave-v3-origin",
+            "filters": {
+                "include": ["audits"],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "aave/aave-v3-core",
+            "filters": {
+                "include": ["audits"],
+                "exclude": []
+            },
+            "branch": "master"
+        }
+    ]
+}
