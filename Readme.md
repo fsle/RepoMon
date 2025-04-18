@@ -21,19 +21,15 @@ Currently sends a notification message to a telegram channel when a update is de
 
 
 ### Install
-- dependency
+- install dependency
 ```
 pip3 install requests
 ```
-- modify config.json.sample
+- modify `config.json.sample` and copy to `config.json`
     - "github_token": github token to avoid being rate limited when listing files in repositories.
     - "tg_token": telegram token of the telegram bot that will send the message.
     -  "tg_chat_id": chat id where the notification will be sent.
 - crontab (launches the script every 10 minutes)
 ```
 */10 * * * * exec /usr/bin/python3 /home/path/to/RepoMon/RepoMon.py
-```
-
-````
-python3 RepoMon.py
 ```
