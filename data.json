@@ -749,7 +749,7 @@
             }
         },
         "trailofbits/publications": {
-            "last_commit": "1acf7da242ac4c7dea97ea3e5ed6a3e84ef0b062",
+            "last_commit": "2551b13a71c903797754811e1ae59febb8069ff9",
             "entries": {
                 "reviews/0x-protocol.pdf": "7c52ee8b0ca23ff4c811d09c40a957bffcc83f0f",
                 "reviews/2021-04-balancer-balancerv2-securityreview.pdf": "0c5c79c88e3cd730b58564f7bf034223812373a7",
@@ -1084,7 +1084,12 @@
                 "reviews/wXTZ.pdf": "93709f5d686b3532f7ab01a91ad190b3a32cbc4a",
                 "reviews/zcoin-lelantus-summary.pdf": "a038bb018f2a81bc75a53a535dda88ffd503084a",
                 "reviews/zecwallet.pdf": "bf1d408789e4f9134d74b1344bc92789c87acc32",
-                "reviews/zlib.pdf": "f78f0229601947dfe79bc1ca154fac0bf4f59b0d"
+                "reviews/zlib.pdf": "f78f0229601947dfe79bc1ca154fac0bf4f59b0d",
+                "reviews/2024-12-istio-ztunnel-securityreview.pdf": "d2d2c8838b6c966d341f1713aa83d2e2f97b2b02",
+                "reviews/2025-04-offchainlabs-reward-distributor-fixes-securityreview.pdf": "8228cf52f8e0ae2be2ae73bf41349cbfb4875e39",
+                "reviews/2025-04-ostif-nats-securityreview.pdf": "da9d3e8003d6ddcdf771dd9a411661f8a9515b47",
+                "reviews/2025-04-reserve-folio-solidity-securityreview.pdf": "86ff4ac3449e39bbd0db35eede95a8dba6ce8405",
+                "reviews/2025-04-serai-dex-security-review.pdf": "2e1844155c600436ceca10dbecfaed91ffd8cc96"
             }
         },
         "sigp/public-audits": {
@@ -2259,7 +2264,7 @@
             }
         },
         "slowmist/Knowledge-Base": {
-            "last_commit": "a9c084a491c53723ad6ee7ccba8b7db76fec826d",
+            "last_commit": "67aa499d6a58b6e31bb3d85b74f40d4dcd86874f",
             "entries": {
                 ".gitignore": "e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf",
                 "README.md": "ac113d7eac1da6e35a94c34091c6515ad4e5397b",
@@ -2288,7 +2293,7 @@
                 "mindmaps/exchange_wallet_attack_defense.png": "dcf62a1e6156dd69efc8bba7f0908fc8b3400a3a",
                 "open-misttrack-report/DeGame_User_Phished_MistTrack_Report.pdf": "ec2d5b744afc13d7d393a50bedc6921e2fe17a30",
                 "open-misttrack-report/README.md": "0c765904bc237f3f2f3f5921576eb6372b519850",
-                "open-report-V2/README.md": "cce621e44039d749abcecdf9c1a921a1abcb2c84",
+                "open-report-V2/README.md": "33bb8ad70e4b8acec1f4232c1da54a6b68aa214f",
                 "open-report-V2/blockchain-application/77wallet (Android) - SlowMist Audit Report_en-us.pdf": "7b0af2b3c3d13441c247f3a93e89f323b0664cfe",
                 "open-report-V2/blockchain-application/77wallet (iOS) - SlowMist Audit Report_en-us.pdf": "2b614daf525d830156d0dd7ed35dd08c3bffc51b",
                 "open-report-V2/blockchain-application/SlowMist Audit Report - ABCWallet_en-us.pdf": "0f8ff1bedf576d93ff2df04de28ba0498760df6f",
@@ -2905,7 +2910,9 @@
                 "translations/Exploring-the-Attack-Surface-of-Blockchain-A-Systematic-Overview/resources/z_2.png": "1f1d4a79ee5e4ad74445e17021185848f0a7ad28",
                 "translations/Exploring-the-Attack-Surface-of-Blockchain-A-Systematic-Overview/resources/zx.png": "7f60a9d93a6357855152c51ab78f9c1d052af602",
                 "translations/solidity-security-comprehensive-list-of-known-attack-vectors-and-common-anti-patterns_zh-cn.md": "97362f6c2ca14d6cf066438d637772d7fcba378c",
-                "translations/\u4e86\u89e3Vyper\uff1a\u7075\u6d3b\u7684New Ethereum\u8bed\u8a00.pdf": "1e61e299dbb5832072a290a64fc7fc1d108ed8cb"
+                "translations/\u4e86\u89e3Vyper\uff1a\u7075\u6d3b\u7684New Ethereum\u8bed\u8a00.pdf": "1e61e299dbb5832072a290a64fc7fc1d108ed8cb",
+                "open-report-V2/blockchain/bfc node (Rust) - SlowMist Audit Report.pdf": "3a908b55016e50adf23471ca3751c81606eb0598",
+                "open-report-V2/smart-contract/bfc smart contracts - SlowMist Audit Report.pdf": "30721be56ff3fdba4ef1570a35abc2dfdf2cd278"
             }
         },
         "peckshield/publications": {
@@ -3737,10 +3744,10 @@
             }
         },
         "pashov/audits": {
-            "last_commit": "236bacce1978df5872ea61b6964bde32421a1870",
+            "last_commit": "cb9bca9a6122736d4d6f15e4e474356ebd32badb",
             "entries": {
                 ".gitignore": "496ee2ca6a2f08396a4076fe43dedf3dc0da8b6d",
-                "README.md": "37f8bbf230e1b1aa36784ce314f3df2a329bc0c4",
+                "README.md": "dcf4c3201a9b0bcf0a6ff87ff0fbaf441e477014",
                 "solo/README.md": "7f39bcf4fe9386289620d2112561fc379861bbb8",
                 "solo/md/1inchTokenPlugins-security-review.md": "a709e9d6d0ee1dba419092777636c660bbccdc1a",
                 "solo/md/Ambire-second-security-review.md": "74b49b7ca0ad7c2aef05639acbbc966939fd9d7f",
@@ -4111,7 +4118,9 @@
                 "team/pdf/g8keep-security-review.pdf": "7afe254d1ff2d57a7433dd7316400f5cb707cd41",
                 "team/pdf/g8keep-security-review_2024-12-12.pdf": "5649994217c85b588ca8c1d1e2a44c6a25310e4f",
                 "team/md/DesciLaunchpad-security-review_2025-02-07.md": "e56106234379eb79bac418e5465a8b47b519f365",
-                "team/pdf/DesciLaunchpad-security-review_2025-02-07.pdf": "7d8e9a3cff4c097536b78193105268eae7e4be53"
+                "team/pdf/DesciLaunchpad-security-review_2025-02-07.pdf": "7d8e9a3cff4c097536b78193105268eae7e4be53",
+                "team/md/HypurrFi-security-review_2025-02-12.md": "b05ec86d5e362c747e5aa61cfe874b99fbcf0a1a",
+                "team/pdf/HypurrFi-security-review_2025-02-12.pdf": "dcea6309b39f7a265f436f5bd6088ebd1933b7e3"
             }
         },
         "TechRate/Smart-Contract-Audits": {
@@ -8272,9 +8281,9 @@
             }
         },
         "Egis-Security/audits": {
-            "last_commit": "64bdbcfb1e40945dcb0b6bcddfdcecdb627c4a3b",
+            "last_commit": "3e8d4510d90ffac2cabfb4b05891bf1446f7c2d9",
             "entries": {
-                "README.md": "bc264739bed8e4f1cc8bc7196e3a65b94243939b",
+                "README.md": "1581a912a24153fb99586e75cbf031803c0dcb72",
                 "community_collage_1.png": "da334e4b2bbd2a96a570e5e593b8eb74d12ed3a3",
                 "community_collage_2.png": "27d2b0b39e0a2651d08742cfd288786c5ba60d03",
                 "egis_banner.png": "1a8320ac7e49944b3556da745ef06f78d4420f89",
