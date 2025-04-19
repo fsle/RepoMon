@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import code
 import base64
 
 
@@ -12,19 +13,11 @@ with open(os.path.join(os.path.dirname(__file__),'data.json'), 'r') as data_file
 
 def tg_notify(msg):
     print(msg)
-    #espace markdown chars (they are a few more but we are not supposed to use them)
-    msg = msg.replace('.' ,r"\.")
-    msg = msg.replace('-' ,r"\-")
-    msg = msg.replace('_' ,r"\_")
-    msg = msg.replace('+' ,r"\+")
-    msg = msg.replace('=' ,r"\=")
-    msg = msg.replace('(' ,r"\(")
-    msg = msg.replace(')' ,r"\)")
-    url = f"https://api.telegram.org/bot{config['tg_token']}/sendMessage?chat_id={config['tg_chat_id']}&text={msg}&parse_mode=MarkdownV2"
+    url = f"https://api.telegram.org/bot{config['tg_token']}/sendMessage?chat_id={config['tg_chat_id']}&text={msg}&parse_mode=HTML"
     r = requests.get(url)
     if r.status_code != 200:
         tmp = base64.b64encode(msg.encode('utf-8')) #for dbg prupose
-        url = f"https://api.telegram.org/bot{config['tg_token']}/sendMessage?chat_id={config['tg_chat_id']}&text={tmp}&parse_mode=MarkdownV2"
+        url = f"https://api.telegram.org/bot{config['tg_token']}/sendMessage?chat_id={config['tg_chat_id']}&text={tmp}"
         requests.get(url)
 
 
@@ -70,20 +63,20 @@ def check_diff(repo_config, last_commit, entries, saved):
         if entry not in saved.keys():
             saved[entry] = sha
             update_data(repo, last_commit, saved)
-            msg = rf"\[{repo}\] 🟢New file🟢 👉 [{entry}](https://github.com/{repo}/blob/{branch}/{entry})"
+            msg = rf'[{repo}] 🟢New file🟢 👉 <a href="https://github.com/{repo}/blob/{branch}/{requests.utils.quote(entry)}">{requests.utils.quote(entry)}</a>'
             tg_notify(msg)
         #updated file
         elif sha != saved[entry]:
             saved[entry] = sha
             update_data(repo, last_commit, saved)
-            msg = rf"\[{repo}\] 🟠Updated file🟠 👉 [{entry}](https://github.com/{repo}/blob/{branch}/{entry})"
+            msg = rf'[{repo}] 🟠Updated file🟠 👉 <a href="https://github.com/{repo}/blob/{branch}/{requests.utils.quote(entry)}">{requests.utils.quote(entry)}</a>'
             tg_notify(msg)
     to_del = []
     for (entry, sha) in saved.items():
         #deleted file
         if entry not in entries.keys():
             to_del.append(entry)
-            msg = rf"\[{repo}\]🔴Deleted file🔴 👉 [{entry}](https://github.com/{repo}/blob/{branch}/{entry})"
+            msg = rf'[{repo}] 🔴Deleted file🔴 👉 <a href="https://github.com/{repo}/blob/{branch}/{requests.utils.quote(entry)}">{requests.utils.quote(entry)}</a>'
             tg_notify(msg)
     for el in to_del:
         del saved[el]
