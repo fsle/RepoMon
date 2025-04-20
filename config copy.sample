@@ -3,6 +3,14 @@
     "tg_token": "CHANGE_ME_PLEASE",
     "tg_chat_id": "CHANGE_ME_PLEASE",
     "repositories": [
+         {
+            "repo": "056Security/audits",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
         {
             "repo": "Decurity/audits",
             "filters": {
