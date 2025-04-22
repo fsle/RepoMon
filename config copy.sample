@@ -1,9 +1,26 @@
+
 {
     "github_token": "<CHANGE_ME_PLEASE>",
     "tg_token": "CHANGE_ME_PLEASE",
     "tg_chat_id": "CHANGE_ME_PLEASE",
     "repositories": [
-         {
+        {
+            "repo": "CODESPECT-security/audit-reports",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "CODESPECT-security/.github",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
             "repo": "056Security/audits",
             "filters": {
                 "include": [],
@@ -485,6 +502,22 @@
         },
         {
             "repo": "0xSpearmint/0xSpearmint",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "SUPERMAN-I4G/security-code-reviews",
+            "filters": {
+                "include": [],
+                "exclude": []
+            },
+            "branch": "main"
+        },
+        {
+            "repo": "0xbepresent/audits",
             "filters": {
                 "include": [],
                 "exclude": []
